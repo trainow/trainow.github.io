@@ -1713,7 +1713,8 @@ var TopoComponent = /** @class */ (function () {
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
     production: false,
-    enderecoBaseApi: 'https://trainow-api.herokuapp.com'
+    // enderecoBaseApi: 'https://trainow-api.herokuapp.com'
+    enderecoBaseApi: 'https://cicerojuniorf.github.io/'
 };
 
 
