@@ -69,37 +69,42 @@ var AppComponent = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formulario_editar_formulario_editar_formulario_component__ = __webpack_require__("./src/app/formulario/editar-formulario/editar-formulario.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formulario_formulario_component__ = __webpack_require__("./src/app/formulario/formulario.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__topo_topo_component__ = __webpack_require__("./src/app/topo/topo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_login_component__ = __webpack_require__("./src/app/login/login.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__home_page_home_page_component__ = __webpack_require__("./src/app/home-page/home-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__criar_conta_criar_conta_component__ = __webpack_require__("./src/app/criar-conta/criar-conta.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__("./node_modules/@angular/http/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_routes__ = __webpack_require__("./src/app/app.routes.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_mask__ = __webpack_require__("./node_modules/ngx-mask/fesm5/ngx-mask.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__home_page_meus_alunos_meus_alunos_component__ = __webpack_require__("./src/app/home-page/meus-alunos/meus-alunos.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__home_page_adicionar_aluno_adicionar_aluno_component__ = __webpack_require__("./src/app/home-page/adicionar-aluno/adicionar-aluno.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__formulario_pergunta_texto_pergunta_texto_component__ = __webpack_require__("./src/app/formulario/pergunta-texto/pergunta-texto.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__formulario_pergunta_radio_pergunta_radio_component__ = __webpack_require__("./src/app/formulario/pergunta-radio/pergunta-radio.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__formulario_pergunta_mult_escolha_pergunta_mult_escolha_component__ = __webpack_require__("./src/app/formulario/pergunta-mult-escolha/pergunta-mult-escolha.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__inicio_inicio_component__ = __webpack_require__("./src/app/inicio/inicio.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__inicio_topo_inicio_topo_inicio_component__ = __webpack_require__("./src/app/inicio/topo-inicio/topo-inicio.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__inicio_quemsomos_quemsomos_component__ = __webpack_require__("./src/app/inicio/quemsomos/quemsomos.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__inicio_saibamais_saibamais_component__ = __webpack_require__("./src/app/inicio/saibamais/saibamais.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__home_page_meus_alunos_criar_treino_criar_treino_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/criar-treino.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__home_page_meus_alunos_criar_treino_escolher_membro_escolher_membro_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__home_page_meus_alunos_criar_treino_escolher_musculo_escolher_musculo_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-musculo/escolher-musculo.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__home_page_meus_alunos_criar_treino_escolher_exercicio_escolher_exercicio_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-exercicio/escolher-exercicio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formulario_formulario_component__ = __webpack_require__("./src/app/formulario/formulario.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__topo_topo_component__ = __webpack_require__("./src/app/topo/topo.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__login_login_component__ = __webpack_require__("./src/app/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home_page_home_page_component__ = __webpack_require__("./src/app/home-page/home-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__criar_conta_criar_conta_component__ = __webpack_require__("./src/app/criar-conta/criar-conta.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_http__ = __webpack_require__("./node_modules/@angular/http/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__app_routes__ = __webpack_require__("./src/app/app.routes.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ngx_mask__ = __webpack_require__("./node_modules/ngx-mask/fesm5/ngx-mask.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__home_page_meus_alunos_meus_alunos_component__ = __webpack_require__("./src/app/home-page/meus-alunos/meus-alunos.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__home_page_adicionar_aluno_adicionar_aluno_component__ = __webpack_require__("./src/app/home-page/adicionar-aluno/adicionar-aluno.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__formulario_pergunta_texto_pergunta_texto_component__ = __webpack_require__("./src/app/formulario/pergunta-texto/pergunta-texto.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__formulario_pergunta_radio_pergunta_radio_component__ = __webpack_require__("./src/app/formulario/pergunta-radio/pergunta-radio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__formulario_pergunta_mult_escolha_pergunta_mult_escolha_component__ = __webpack_require__("./src/app/formulario/pergunta-mult-escolha/pergunta-mult-escolha.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__inicio_inicio_component__ = __webpack_require__("./src/app/inicio/inicio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__inicio_topo_inicio_topo_inicio_component__ = __webpack_require__("./src/app/inicio/topo-inicio/topo-inicio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__inicio_quemsomos_quemsomos_component__ = __webpack_require__("./src/app/inicio/quemsomos/quemsomos.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__inicio_saibamais_saibamais_component__ = __webpack_require__("./src/app/inicio/saibamais/saibamais.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__home_page_meus_alunos_criar_treino_criar_treino_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/criar-treino.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__home_page_meus_alunos_criar_treino_escolher_membro_escolher_membro_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__home_page_meus_alunos_criar_treino_escolher_musculo_escolher_musculo_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-musculo/escolher-musculo.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__home_page_meus_alunos_criar_treino_escolher_exercicio_escolher_exercicio_component__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-exercicio/escolher-exercicio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__home_page_cadastrar_exercicio_personalizado_cadastrar_exercicio_personalizado_component__ = __webpack_require__("./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+// import { ModalFormComponent } from './formulario/modal-form/modal-form.component';
+
+
 
 
 
@@ -133,38 +138,40 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_4__topo_topo_component__["a" /* TopoComponent */],
-                __WEBPACK_IMPORTED_MODULE_5__login_login_component__["a" /* LoginComponent */],
-                __WEBPACK_IMPORTED_MODULE_6__home_page_home_page_component__["a" /* HomePageComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__criar_conta_criar_conta_component__["a" /* CriarContaComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__home_page_meus_alunos_meus_alunos_component__["a" /* MeusAlunosComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__home_page_adicionar_aluno_adicionar_aluno_component__["a" /* AdicionarAlunoComponent */],
-                __WEBPACK_IMPORTED_MODULE_2__formulario_formulario_component__["a" /* FormularioComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__formulario_pergunta_texto_pergunta_texto_component__["a" /* PerguntaTextoComponent */],
-                __WEBPACK_IMPORTED_MODULE_17__formulario_pergunta_radio_pergunta_radio_component__["a" /* PerguntaRadioComponent */],
-                __WEBPACK_IMPORTED_MODULE_18__formulario_pergunta_mult_escolha_pergunta_mult_escolha_component__["a" /* PerguntaMultEscolhaComponent */],
-                __WEBPACK_IMPORTED_MODULE_19__inicio_inicio_component__["a" /* InicioComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__inicio_topo_inicio_topo_inicio_component__["a" /* TopoInicioComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__inicio_quemsomos_quemsomos_component__["a" /* QuemsomosComponent */],
-                __WEBPACK_IMPORTED_MODULE_22__inicio_saibamais_saibamais_component__["a" /* SaibamaisComponent */],
-                __WEBPACK_IMPORTED_MODULE_23__home_page_meus_alunos_criar_treino_criar_treino_component__["a" /* CriarTreinoComponent */],
-                __WEBPACK_IMPORTED_MODULE_24__home_page_meus_alunos_criar_treino_escolher_membro_escolher_membro_component__["a" /* EscolherMembroComponent */],
-                __WEBPACK_IMPORTED_MODULE_25__home_page_meus_alunos_criar_treino_escolher_musculo_escolher_musculo_component__["a" /* EscolherMusculoComponent */],
-                __WEBPACK_IMPORTED_MODULE_26__home_page_meus_alunos_criar_treino_escolher_exercicio_escolher_exercicio_component__["a" /* EscolherExercicioComponent */],
-                __WEBPACK_IMPORTED_MODULE_0__formulario_editar_formulario_editar_formulario_component__["a" /* EditarFormularioComponent */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_5__topo_topo_component__["a" /* TopoComponent */],
+                __WEBPACK_IMPORTED_MODULE_6__login_login_component__["a" /* LoginComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__home_page_home_page_component__["a" /* HomePageComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__criar_conta_criar_conta_component__["a" /* CriarContaComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__home_page_meus_alunos_meus_alunos_component__["a" /* MeusAlunosComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__home_page_adicionar_aluno_adicionar_aluno_component__["a" /* AdicionarAlunoComponent */],
+                __WEBPACK_IMPORTED_MODULE_3__formulario_formulario_component__["a" /* FormularioComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__formulario_pergunta_texto_pergunta_texto_component__["a" /* PerguntaTextoComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__formulario_pergunta_radio_pergunta_radio_component__["a" /* PerguntaRadioComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__formulario_pergunta_mult_escolha_pergunta_mult_escolha_component__["a" /* PerguntaMultEscolhaComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__inicio_inicio_component__["a" /* InicioComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__inicio_topo_inicio_topo_inicio_component__["a" /* TopoInicioComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__inicio_quemsomos_quemsomos_component__["a" /* QuemsomosComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__inicio_saibamais_saibamais_component__["a" /* SaibamaisComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__home_page_meus_alunos_criar_treino_criar_treino_component__["a" /* CriarTreinoComponent */],
+                __WEBPACK_IMPORTED_MODULE_25__home_page_meus_alunos_criar_treino_escolher_membro_escolher_membro_component__["a" /* EscolherMembroComponent */],
+                __WEBPACK_IMPORTED_MODULE_26__home_page_meus_alunos_criar_treino_escolher_musculo_escolher_musculo_component__["a" /* EscolherMusculoComponent */],
+                __WEBPACK_IMPORTED_MODULE_27__home_page_meus_alunos_criar_treino_escolher_exercicio_escolher_exercicio_component__["a" /* EscolherExercicioComponent */],
+                __WEBPACK_IMPORTED_MODULE_0__formulario_editar_formulario_editar_formulario_component__["a" /* EditarFormularioComponent */],
+                __WEBPACK_IMPORTED_MODULE_28__home_page_cadastrar_exercicio_personalizado_cadastrar_exercicio_personalizado_component__["a" /* CadastrarExercicioPersonalizadoComponent */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_9__angular_http__["c" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_8__angular_forms__["b" /* FormsModule */],
-                __WEBPACK_IMPORTED_MODULE_8__angular_forms__["d" /* ReactiveFormsModule */],
-                __WEBPACK_IMPORTED_MODULE_13_ngx_mask__["a" /* NgxMaskModule */].forRoot(),
-                __WEBPACK_IMPORTED_MODULE_11__angular_router__["b" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_routes__["a" /* ROUTES */]),
+                __WEBPACK_IMPORTED_MODULE_11__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_10__angular_http__["c" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_9__angular_forms__["b" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_9__angular_forms__["d" /* ReactiveFormsModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_14_ngx_mask__["a" /* NgxMaskModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_12__angular_router__["b" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_13__app_routes__["a" /* ROUTES */]),
             ],
             providers: [],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_16__formulario_pergunta_texto_pergunta_texto_component__["a" /* PerguntaTextoComponent */], __WEBPACK_IMPORTED_MODULE_17__formulario_pergunta_radio_pergunta_radio_component__["a" /* PerguntaRadioComponent */], __WEBPACK_IMPORTED_MODULE_18__formulario_pergunta_mult_escolha_pergunta_mult_escolha_component__["a" /* PerguntaMultEscolhaComponent */]]
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_17__formulario_pergunta_texto_pergunta_texto_component__["a" /* PerguntaTextoComponent */], __WEBPACK_IMPORTED_MODULE_18__formulario_pergunta_radio_pergunta_radio_component__["a" /* PerguntaRadioComponent */], __WEBPACK_IMPORTED_MODULE_19__formulario_pergunta_mult_escolha_pergunta_mult_escolha_component__["a" /* PerguntaMultEscolhaComponent */]]
         })
     ], AppModule);
     return AppModule;
@@ -187,6 +194,8 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__inicio_inicio_component__ = __webpack_require__("./src/app/inicio/inicio.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__inicio_quemsomos_quemsomos_component__ = __webpack_require__("./src/app/inicio/quemsomos/quemsomos.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__inicio_saibamais_saibamais_component__ = __webpack_require__("./src/app/inicio/saibamais/saibamais.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_page_cadastrar_exercicio_personalizado_cadastrar_exercicio_personalizado_component__ = __webpack_require__("./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.ts");
+
 
 
 
@@ -199,6 +208,7 @@ var ROUTES = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_5__inicio_inicio_component__["a" /* InicioComponent */] },
     { path: 'quemsomos', component: __WEBPACK_IMPORTED_MODULE_6__inicio_quemsomos_quemsomos_component__["a" /* QuemsomosComponent */] },
     { path: 'saibamais', component: __WEBPACK_IMPORTED_MODULE_7__inicio_saibamais_saibamais_component__["a" /* SaibamaisComponent */] },
+    { path: 'exercicio', component: __WEBPACK_IMPORTED_MODULE_8__home_page_cadastrar_exercicio_personalizado_cadastrar_exercicio_personalizado_component__["a" /* CadastrarExercicioPersonalizadoComponent */] },
     { path: 'meusAlunos', component: __WEBPACK_IMPORTED_MODULE_3__home_page_meus_alunos_meus_alunos_component__["a" /* MeusAlunosComponent */] },
     { path: 'addAluno', component: __WEBPACK_IMPORTED_MODULE_4__home_page_adicionar_aluno_adicionar_aluno_component__["a" /* AdicionarAlunoComponent */] },
     { path: 'criarConta', component: __WEBPACK_IMPORTED_MODULE_2__criar_conta_criar_conta_component__["a" /* CriarContaComponent */] },
@@ -212,7 +222,7 @@ var ROUTES = [
 /***/ "./src/app/criar-conta/criar-conta.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".principal{\r\n    height: 100%;\r\n    border-style: solid\r\n}\r\n.m-top{\r\n    margin-top: 10%;\r\n}\r\n.autenticacao{\r\n    margin: 3% 3% 3% 3%\r\n}\r\n.label-obrigatorio{\r\n    display: block;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n.label-autenticacao{\r\n    color: darkblue;\r\n    font-weight: bold;\r\n    width: 5;\r\n    display: block;\r\n    text-align: right;\r\n    margin: auto\r\n}\r\n.label-warning{\r\n    display: inline;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n.centro-texto{\r\n    text-align: center;\r\n    display: block;\r\n    margin: auto;\r\n    margin-top: 2%;\r\n}\r\n.div-autentica{\r\n    margin-top: 0;\r\n}\r\n.botao{\r\n    margin-left:  3%;\r\n    margin-top: 3%;\r\n}\r\n.btn-primary{\r\n    border-color: lightseagreen;\r\n    background-color: lightseagreen;\r\n}\r\n.alinhar{\r\n    display: block;\r\n    margin: auto\r\n}\r\n.rodape {\r\n    margin: auto;\r\n    width: 100%;\r\n    bottom: 2%;\r\n    position: fixed;\r\n}\r\n.margin-do-label{\r\n    margin-top: 2%;\r\n}\r\n.margin-a{\r\n    padding-bottom: 2%;\r\n}\r\n.estilo-a{\r\n    color: lightseagreen;\r\n}\r\n.fotinho {\r\n    max-width:200px;\r\n    max-height:150px;\r\n    width: auto;\r\n    height: auto;\r\n}\r\n.fundoTelaCadastro{\r\n    border:0px;\r\n    border-style:solid;\r\n    background-color:ghostwhite;\r\n    max-width: 100%;\r\n    /* border-radius: 10px; */\r\n    /* margin-top: 30px; */\r\n}\r\n@media (max-width: 600px)\r\n{\r\n    .margin-do-label{\r\n        margin-top: 5%;\r\n    }\r\n    .margin-a{\r\n        padding-bottom: 5%;\r\n    }\r\n\r\n}"
+module.exports = ".principal{\r\n    height: 100%;\r\n    border-style: solid\r\n}\r\n.m-top{\r\n    margin-top: 10%;\r\n}\r\n.autenticacao{\r\n    margin: 3% 3% 3% 3%\r\n}\r\n.label-obrigatorio{\r\n    display: block;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n.label-autenticacao{\r\n    color: darkblue;\r\n    font-weight: bold;\r\n    width: 5;\r\n    display: block;\r\n    text-align: right;\r\n    margin: auto\r\n}\r\n.label-warning{\r\n    display: inline;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n.centro-texto{\r\n    text-align: center;\r\n    display: block;\r\n    margin: auto;\r\n    margin-top: 2%;\r\n}\r\n.div-autentica{\r\n    margin-top: 0;\r\n}\r\n.botao{\r\n    margin-left:  3%;\r\n    margin-top: 3%;\r\n}\r\n.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {\r\n    border-color: lightseagreen !important;\r\n    background-color: lightseagreen !important;\r\n}\r\n.alinhar{\r\n    display: block;\r\n    margin: auto\r\n}\r\n.rodape {\r\n    margin: auto;\r\n    width: 100%;\r\n    bottom: 2%;\r\n    position: fixed;\r\n}\r\n.margin-do-label{\r\n    margin-top: 2%;\r\n}\r\n.margin-a{\r\n    padding-bottom: 2%;\r\n}\r\n.estilo-a{\r\n    color: lightseagreen;\r\n}\r\n.fotinho {\r\n    max-width:200px;\r\n    max-height:150px;\r\n    width: auto;\r\n    height: auto;\r\n}\r\n.fundoTelaCadastro{\r\n    border:0px;\r\n    border-style:solid;\r\n    background-color:ghostwhite;\r\n    max-width: 100%;\r\n    /* border-radius: 10px; */\r\n    /* margin-top: 30px; */\r\n}\r\n@media (max-width: 600px)\r\n{\r\n    .margin-do-label{\r\n        margin-top: 5%;\r\n    }\r\n    .margin-a{\r\n        padding-bottom: 5%;\r\n    }\r\n\r\n}"
 
 /***/ }),
 
@@ -735,7 +745,7 @@ var PerguntaTextoComponent = /** @class */ (function () {
 /***/ "./src/app/home-page/adicionar-aluno/adicionar-aluno.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".btn-primary{\r\n    border-color: lightseagreen;\r\n    background-color: lightseagreen;\r\n}"
+module.exports = ".btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {\r\n    border-color: lightseagreen !important;\r\n    background-color: lightseagreen !important;\r\n}"
 
 /***/ }),
 
@@ -830,17 +840,120 @@ var AdicionarAlunoComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".fundo {\r\n    border:0px;\r\n    border-style:solid;\r\n    background-color:ghostwhite;\r\n    max-width: 100%;\r\n    border-radius: 10px;\r\n    margin-top: 30px;\r\n}\r\n\r\n.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {\r\n    border-color: lightseagreen !important;\r\n    background-color: lightseagreen !important;\r\n}\r\n\r\n.m-top{\r\n    margin-top: 5px;\r\n}\r\n\r\n@media (max-width: 600px) {\r\n    .fundo{\r\n        border:0px;\r\n        border-style:solid;\r\n        background-color:ghostwhite;\r\n        max-width: 100%;\r\n        margin-top: 30px;\r\n    }\r\n    input{\r\n        max-width: 100%;\r\n    }\r\n    .margin-do-label{\r\n        margin-top: 5%;\r\n    }\r\n    .margin-a{\r\n        padding-bottom: 5%;\r\n    }\r\n\r\n\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<app-topo></app-topo>\r\n\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n  <h2>Crie o seu próprio exercício</h2>\r\n</div>\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\">\r\n  <div class=\"row\">\r\n      <h4>Adicione seu exercício personalizado abaixo: </h4>\r\n  </div>\r\n</div>\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: ghostwhite;\">\r\n  <div class=\"fundo\">\r\n      <form class=\"form-group\" [formGroup]=\"form\">\r\n        <div class=\"col-auto\">\r\n            <label for=\"inputNome\">Nome do Exercício</label>\r\n            <input type=\"text\"  class=\"form-control input-estilo\" formControlName=\"nome\" placeholder=\"Coloque o nome....\" [(ngModel)]=\"nome\" >\r\n            <label class=\"label-obrigatorio\" *ngIf=\"form.controls['nome'].touched && !form.controls['nome'].valid\">Digite um nome válido</label>\r\n        </div>\r\n\r\n        <div class=\"col-auto\">\r\n          <label for=\"dropMembro\">Membro</label>\r\n          <select name=\"selectMembro\"  class=\"form-control input-estilo\" id=\"dropMembro\" formControlName=\"membro\" [(ngModel)]=\"selectMembro\" (change)=\"preencheMusculos($event.target.value)\" >\r\n            <option value=\"0\">Superior</option>\r\n            <option value=\"1\">Inferior</option>\r\n          </select>\r\n          <label class=\"label-obrigatorio\" *ngIf=\"form.controls['membro'].touched && !form.controls['membro'].valid\">O campo é obrigatório</label>\r\n        </div>\r\n\r\n        <div class=\"col-auto\">\r\n          <label for=\"dropMusculo\">Escolha o músculo</label>\r\n          <select name=\"selectMusculo\" id=\"dropMusculo\" class=\"form-control input-estilo\" formControlName=\"musculo\" [(ngModel)]=\"musculo\" (change)=\"pegaItem($event.target.value)\">\r\n            <option></option>\r\n            <option *ngFor=\"let item of musculos\">\r\n              {{item}}\r\n            </option>\r\n          </select>\r\n          <label class=\"label-obrigatorio\" *ngIf=\"form.controls['musculo'].touched && !form.controls['musculo'].valid\">O campo é obrigatório</label>\r\n        </div>\r\n        <div class=\"col-auto\">\r\n          <button type=\"submit\"  [disabled]=\"!form.valid\" (click)=\"enviar()\" class=\"btn btn-primary m-top\">Cadastrar</button>\r\n        </div>\r\n      </form>\r\n  </div>\r\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CadastrarExercicioPersonalizadoComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_exercicio_model__ = __webpack_require__("./src/app/shared/exercicio.model.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_serverServices_service__ = __webpack_require__("./src/app/shared/serverServices.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var CadastrarExercicioPersonalizadoComponent = /** @class */ (function () {
+    function CadastrarExercicioPersonalizadoComponent(service, router, formBuilder) {
+        this.service = service;
+        this.router = router;
+        this.formBuilder = formBuilder;
+        this.musculosSuperiores = ["Peito", "Bíceps", "Tríceps", "Ombro", "Costas", "Antebraço", "Abdomen"];
+        this.musculosInferiores = ["Perna", "Gluteos", "Panturrilha"];
+        this.form = formBuilder.group({
+            nome: ['', [
+                    __WEBPACK_IMPORTED_MODULE_4__angular_forms__["e" /* Validators */].required,
+                    __WEBPACK_IMPORTED_MODULE_4__angular_forms__["e" /* Validators */].pattern(/[^0-9\.\,\"\?\!\;\:\#\$\%\&\(\)\*\+\-\/\<\>\=\@\[\]\\\^\_\{\}\|\~]+/)
+                ]],
+            membro: ['', [
+                    __WEBPACK_IMPORTED_MODULE_4__angular_forms__["e" /* Validators */].required,
+                ]],
+            musculo: ['', [
+                    __WEBPACK_IMPORTED_MODULE_4__angular_forms__["e" /* Validators */].required,
+                ]]
+        });
+    }
+    CadastrarExercicioPersonalizadoComponent.prototype.ngOnInit = function () {
+    };
+    CadastrarExercicioPersonalizadoComponent.prototype.enviar = function () {
+        this.exercicio.nome = this.nome;
+        this.exercicio.musculo = this.musculo;
+        console.log(this.exercicio);
+        this.service.servico('POST', 'exercicios', this.exercicio).subscribe(function (res) {
+            console.log('RESPOSTA ', res);
+        }, function (error) {
+            console.log('DEU RUIM ', error);
+        });
+    };
+    // Preenche dinamicamente a dropdown do musculo
+    CadastrarExercicioPersonalizadoComponent.prototype.preencheMusculos = function ($event) {
+        this.exercicio = new __WEBPACK_IMPORTED_MODULE_0__shared_exercicio_model__["a" /* Exercicio */]();
+        this.selectMembro = $event;
+        if (this.selectMembro == 0) {
+            this.exercicio.membro = "Superior";
+            this.musculos = this.musculosSuperiores;
+        }
+        else {
+            this.exercicio.membro = "Inferior";
+            this.musculos = this.musculosInferiores;
+        }
+        console.log(this.exercicio.membro);
+    };
+    CadastrarExercicioPersonalizadoComponent.prototype.pegaItem = function ($event) {
+        console.log(this.musculo);
+    };
+    CadastrarExercicioPersonalizadoComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
+            selector: 'app-cadastrar-exercicio-personalizado',
+            template: __webpack_require__("./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.html"),
+            styles: [__webpack_require__("./src/app/home-page/cadastrar-exercicio-personalizado/cadastrar-exercicio-personalizado.component.css")],
+            providers: [__WEBPACK_IMPORTED_MODULE_3__shared_serverServices_service__["a" /* ServerServices */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__shared_serverServices_service__["a" /* ServerServices */], __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* Router */], __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */]])
+    ], CadastrarExercicioPersonalizadoComponent);
+    return CadastrarExercicioPersonalizadoComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/home-page/home-page.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".alinhar{\r\n    display: block;\r\n    margin: auto\r\n}\r\n\r\n.cor-a{\r\n    color: lightseagreen\r\n}\r\n\r\nh2 {\r\n    color: limegreen\r\n}\r\n\r\n.x-body {\r\n    padding-top: 54px;\r\n  }\r\n\r\n@media (min-width: 992px) {\r\n    .x-body {\r\n      padding-top: 0;\r\n      padding-left: 17rem;\r\n    }\r\n  }"
+module.exports = ".alinhar{\r\n    display: block;\r\n    margin: auto\r\n}\r\n\r\n.cor-a{\r\n    color: lightseagreen\r\n}\r\n\r\nh2 {\r\n    color: limegreen\r\n}\r\n\r\n.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {\r\n    border-color: lightseagreen !important;\r\n    background-color: lightseagreen !important;\r\n}\r\n\r\n.x-body {\r\n    padding-top: 54px;\r\n  }\r\n\r\n@media (min-width: 992px) {\r\n    .x-body {\r\n      padding-top: 0;\r\n      padding-left: 17rem;\r\n    }\r\n  }"
 
 /***/ }),
 
 /***/ "./src/app/home-page/home-page.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo></app-topo>\n<!-- <a href=\"\">Voltar</a> -->\n\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n    <h2>Bem vindo, {{nomePersonal}}</h2>\n</div>"
+module.exports = "<app-topo></app-topo>\r\n<!-- <a href=\"\">Voltar</a> -->\r\n\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n    <h2>Bem vindo, {{nomePersonal}}</h2>\r\n</div>\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\">\r\n    <div class=\"row\">\r\n        <h4>Não perca tempo! Adicione já seus alunos e monte treino para eles.</h4>\r\n    </div>\r\n    <div class=\"row\">\r\n            <div class=\"col-md-4\"></div>\r\n            <div class=\"col-md-4\">\r\n                <button class=\"btn btn-primary\">Adicionar Aluno</button>\r\n            </div>\r\n            <div class=\"col-md-4\"></div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <button class=\"btn btn-primary\">Ver Alunos</button>\r\n    </div>\r\n\r\n</div>"
 
 /***/ }),
 
@@ -904,7 +1017,7 @@ module.exports = ""
 /***/ "./src/app/home-page/meus-alunos/criar-treino/criar-treino.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo></app-topo>\n\n <!-- Esse container da responsividade a side bar da tela -->\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n</div>"
+module.exports = "<app-topo></app-topo>\r\n\r\n <!-- Esse container da responsividade a side bar da tela -->\r\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n     <h2>Cadastrar Treino</h2>\r\n</div>\r\n\r\n\r\n\r\n<div class=\"text-center mt-4\">\r\n    <div class=\"row\">\r\n        <label class=\"col-3 font-weight-bold \">Nome</label>\r\n        <input class=\"w-50 form-Control\">\r\n    </div>\r\n    <div class=\"row mt-4\">\r\n        <Label class=\"col-3 font-weight-bold\">Duração (Semanas)</Label>\r\n        <input class=\"form-Control w-25\">\r\n    </div>\r\n    <button class=\"mt-4\" (click)=\"chamarExercicios\">Adicionar Exercícios</button>\r\n</div>"
 
 /***/ }),
 
@@ -954,7 +1067,7 @@ module.exports = ""
 /***/ "./src/app/home-page/meus-alunos/criar-treino/escolher-exercicio/escolher-exercicio.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo></app-topo>\n\n <!-- Esse container da responsividade a side bar da tela -->\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n</div>"
+module.exports = "\r\n<div [class.modal-backdrop]=\"mostraModal\" [class.show]=\"mostraModal\" ></div>\r\n<div id=\"modalOpcao\" class=\"modal modal-wide\" [class.show]=\"mostraModal\" [style.padding-right]=\"mostraModal? '17px' : '0px'\"\r\n  [style.display]=\"mostraModal? 'block' : 'none'\" role=\"dialog\">\r\n  <div class=\"modal-dialog modal-lgg\">\r\n    <div class=\"modal-content col-12\">\r\n      <div class=\"modal-body \">\r\n            <div class=\"text-center\">\r\n                <div *ngFor=\"let ex of exercicios.exercicios\" >\r\n                  <div class=\"text-center row custom-control custom-checkbox\">\r\n                    <input  (change)=\"selecionado($event, ex)\" [id]='ex.nome' type=\"checkbox\"  class=\"d-inline col-2 custom-control-input\">\r\n                    <label class=\"col-7 custom-control-label\" [for]='ex.nome'>{{ex.nome}}</label>\r\n                  </div>\r\n                </div>\r\n              <button (click)=\"emitirLista()\">Adicionar Exercicios</button>\r\n            </div>\r\n        <div class=\"text-left divisao\">\r\n          <ng-container *ngTemplateOutlet=\"template\"></ng-container>\r\n        </div>\r\n        <div class=\"text-center\">\r\n          <input type=\"button\" class=\"mt-3 btn btn-primary botao col-sm-4\" (click)=\"amostra()\" value=\"Cancelar\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -963,7 +1076,8 @@ module.exports = "<app-topo></app-topo>\n\n <!-- Esse container da responsividad
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EscolherExercicioComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_serverServices_service__ = __webpack_require__("./src/app/shared/serverServices.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -974,18 +1088,94 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var EscolherExercicioComponent = /** @class */ (function () {
-    function EscolherExercicioComponent() {
+    function EscolherExercicioComponent(service) {
+        this.service = service;
+        this.toggleModal = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* EventEmitter */]();
+        this.checkeds = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* EventEmitter */]();
+        this.selecionados = [];
+        this.exercicios = [];
     }
     EscolherExercicioComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.service.servico("GET", "/exercicio/padroes", null).subscribe(function (data) {
+            switch (_this.grupoMuscular) {
+                case 1:
+                    _this.exercicios = data.grupoMuscular.superior.Peito;
+                    break;
+                case 2:
+                    _this.exercicios = data.grupoMuscular.superior.Costas;
+                    break;
+                case 3:
+                    _this.exercicios = data.grupoMuscular.superior.Biceps;
+                    break;
+                case 4:
+                    _this.exercicios = data.grupoMuscular.superior.Triceps;
+                    break;
+                case 5:
+                    _this.exercicios = data.grupoMuscular.superior.Abdomen;
+                    break;
+                case 6:
+                    _this.exercicios = data.grupoMuscular.superior.Antebraço;
+                    break;
+                case 7:
+                    _this.exercicios = data.grupoMuscular.superior.Ombro;
+                    break;
+                case 8:
+                    _this.exercicios = data.grupoMuscular.inferior.Perna;
+                    break;
+                case 9:
+                    _this.exercicios = data.grupoMuscular.inferior.Gluteos;
+                    break;
+                case 10:
+                    _this.exercicios = data.grupoMuscular.inferior.Panturrilha;
+                    break;
+            }
+        });
     };
+    EscolherExercicioComponent.prototype.emitirLista = function () {
+        this.checkeds.emit(this.selecionados);
+        this.toggleModal.emit(false);
+    };
+    EscolherExercicioComponent.prototype.amostra = function () {
+        this.toggleModal.emit(false);
+    };
+    EscolherExercicioComponent.prototype.selecionado = function (e, valor) {
+        console.log(e.target.checked);
+        console.log(valor);
+        if (e.target.checked) {
+            this.selecionados.push(valor);
+        }
+        else {
+            this.selecionados.splice(this.selecionados.indexOf(valor), 1);
+        }
+        console.log(this.selecionados[0]);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], EscolherExercicioComponent.prototype, "grupoMuscular", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["D" /* Input */])(),
+        __metadata("design:type", Object)
+    ], EscolherExercicioComponent.prototype, "mostraModal", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["P" /* Output */])('toggleModal'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* EventEmitter */])
+    ], EscolherExercicioComponent.prototype, "toggleModal", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["P" /* Output */])('checkeds'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* EventEmitter */])
+    ], EscolherExercicioComponent.prototype, "checkeds", void 0);
     EscolherExercicioComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
             selector: 'app-escolher-exercicio',
             template: __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-exercicio/escolher-exercicio.component.html"),
-            styles: [__webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-exercicio/escolher-exercicio.component.css")]
+            styles: [__webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-exercicio/escolher-exercicio.component.css")],
+            providers: [__WEBPACK_IMPORTED_MODULE_0__shared_serverServices_service__["a" /* ServerServices */]]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__shared_serverServices_service__["a" /* ServerServices */]])
     ], EscolherExercicioComponent);
     return EscolherExercicioComponent;
 }());
@@ -994,17 +1184,60 @@ var EscolherExercicioComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/home-page/meus-alunos/criar-treino/escolher-membro/animation.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlideInOutAnimation; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_animations__ = __webpack_require__("./node_modules/@angular/animations/esm5/animations.js");
+
+var SlideInOutAnimation = [
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["k" /* trigger */])('slideInOut', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* state */])('in', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+            'max-height': '500px', 'opacity': '1', 'visibility': 'visible'
+        })),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["h" /* state */])('out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+            'max-height': '0px', 'opacity': '0', 'visibility': 'hidden'
+        })),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* transition */])('in => out', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["f" /* group */])([
+                Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('400ms ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+                    'opacity': '0'
+                })),
+                Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('600ms ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+                    'max-height': '0px'
+                })),
+                Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('700ms ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+                    'visibility': 'hidden'
+                }))
+            ])]),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["j" /* transition */])('out => in', [Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["f" /* group */])([
+                Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('1ms ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+                    'visibility': 'visible'
+                })),
+                Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('600ms ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+                    'max-height': '500px'
+                })),
+                Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["e" /* animate */])('800ms ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["i" /* style */])({
+                    'opacity': '1'
+                }))
+            ])])
+    ]),
+];
+
+
+/***/ }),
+
 /***/ "./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".tamBotao{\r\n    width: 20%\r\n}\r\n\r\n\r\n/* The switch - the box around the slider */\r\n\r\n\r\n.switch {\r\n    position: relative;\r\n    display: inline-block;\r\n    width: 60px;\r\n    height: 34px;\r\n  }\r\n\r\n\r\n/* Hide default HTML checkbox */\r\n\r\n\r\n.switch input {display:none;}\r\n\r\n\r\n/* The slider */\r\n\r\n\r\n.slider {\r\n    position: absolute;\r\n    cursor: pointer;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    background-color: seagreen;\r\n    -webkit-transition: .4s;\r\n    transition: .4s;\r\n  }\r\n\r\n\r\n.slider:before {\r\n    position: absolute;\r\n    content: \"\";\r\n    height: 26px;\r\n    width: 26px;\r\n    left: 4px;\r\n    bottom: 4px;\r\n    background-color: white;\r\n    -webkit-transition: .4s;\r\n    transition: .4s;\r\n  }\r\n\r\n\r\ninput:checked + .slider {\r\n    background-color: seagreen;\r\n  }\r\n\r\n\r\ninput:focus + .slider {\r\n    -webkit-box-shadow: 0 0 1px seagreen;\r\n            box-shadow: 0 0 1px seagreen;\r\n  }\r\n\r\n\r\ninput:checked + .slider:before {\r\n    -webkit-transform: translateX(26px);\r\n    transform: translateX(26px);\r\n  }\r\n\r\n\r\n/* Rounded sliders */\r\n\r\n\r\n.slider.round {\r\n    border-radius: 34px;\r\n  }\r\n\r\n\r\n.slider.round:before {\r\n    border-radius: 50%;\r\n  }"
 
 /***/ }),
 
 /***/ "./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo></app-topo>\n\n <!-- Esse container da responsividade a side bar da tela -->\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n</div>"
+module.exports = "<app-topo></app-topo>\r\n\r\n <!-- Esse container da responsividade a side bar da tela -->\r\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n     <h2>Escolha o Membro</h2>\r\n</div>\r\n<div class=\"text-center mt-3\">\r\n    <label class=\"text-center w-100 d-inline align-top mr-3\">Superior</label>\r\n    <label class=\"switch\">\r\n        <input type=\"checkbox\" (click)=\"trocarGrupo()\">\r\n        <span class=\"slider round\"></span>\r\n    </label>\r\n    <label class=\"text-center w-100 d-inline align-top ml-3  \">Inferior</label>\r\n</div>\r\n<div class=\" mt-2 text-center\" [ngSwitch]=\"grupo\">\r\n    <div class=\" text-center\" *ngSwitchCase=\"true\" >\r\n        <h2>Musculos Superiores</h2>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(1)\">Peito</button>\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(2)\">Costas</button>\r\n        </div>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(3)\">Biceps</button>\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(4)\">Triceps</button>\r\n        </div>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(5)\">Abdomen</button>\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(6)\">Antebraço</button>\r\n        </div>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(7)\" >Ombro</button>\r\n        </div>\r\n    </div>\r\n    <div class=\" text-center\" *ngSwitchCase=\"false\">\r\n        <h2>Musculos Inferiores</h2>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(8)\">Perna</button>\r\n        </div>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(9)\">Gluteo</button>\r\n        </div>\r\n        <div class=\"mt-2\">\r\n            <button class=\"tamBotao\" (click)=\"chamarExercicios(10)\">Panturrilha</button>\r\n        </div>\r\n\r\n    </div>\r\n\r\n<div class=\"text-center float-center h-100\">\r\n    <app-escolher-exercicio *ngIf=\"mostraModal\"  [grupoMuscular]=\"grupoMuscular\"\r\n    (toggleModal)=\"MostrarModal($event)\" [mostraModal]=\"mostraModal\" (checkeds)=\"novosExercicios($event)\"></app-escolher-exercicio>\r\n</div>\r\n</div>\r\n<div class=\"text-center mt-3\" >\r\n    <h4>Exercicios na lista</h4>\r\n    <div class=\"text-center  pt-2  mx-0\" style=\"background: ghostwhite\" *ngFor=\"let sel of selecionados\" >\r\n        <div class=\"row pt-2 col mx-0\">\r\n            <div class=\"text-center col\">\r\n            <label class=\"d-block \"> {{sel.exercicios.nome}}</label>\r\n            </div>\r\n                <div class=\"mb-3\">\r\n                    <div class=\"row h-50 d-block\">\r\n                        <div class=\"col d-inline\">\r\n                            <label class=\"\">Nº de Séries</label>\r\n                        </div>\r\n                        <div class=\"col d-inline\">\r\n                            <label class=\"\">Nº de Repetições</label>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row h-50 d-inline\">\r\n                        <div class=\"col  d-inline mb-3\">\r\n                            <input class=\"w-25 text-center\" [(ngModel)]=\"sel.exercicios.serie\" mask=\"999\" >\r\n                        </div>\r\n                        <div class=\"col d-inline\">\r\n                            <input class=\"w-25 text-center\" [(ngModel)]=\"sel.exercicios.repeticoes\" [id]=\"sel.id\" mask=\"999\">\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"text-center\">\r\n                    <button  (click)=\"animar(sel)\"  ></button>\r\n                </div>\r\n                <div></div>\r\n        <hr class=\"w-100 my-0\">\r\n\r\n        </div>\r\n        <div *ngIf=\"sel.buul  \">\r\n            <div     [@slideInOut]=\"sel.estado\" class=\"h-100\">\r\n                <label class=\"col\">Descrição de execução</label>\r\n                <textarea  [(ngModel)]=\"sel.descricao\" style=\"resize: none\" class=\"col w-50 my-3\"></textarea>\r\n                <hr class=\"w-100 my-0\">\r\n            </div>\r\n          </div>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -1013,7 +1246,9 @@ module.exports = "<app-topo></app-topo>\n\n <!-- Esse container da responsividad
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EscolherMembroComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animation__ = __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-membro/animation.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_serverServices_service__ = __webpack_require__("./src/app/shared/serverServices.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1024,18 +1259,61 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var EscolherMembroComponent = /** @class */ (function () {
-    function EscolherMembroComponent() {
+    function EscolherMembroComponent(service) {
+        this.service = service;
+        this.lista_musculos = [];
+        this.grupo = true;
+        this.mostraModal = false;
+        this.selecionados = [];
+        this.estadoAnimacao = 'out';
+        this.contador = 0;
     }
+    EscolherMembroComponent.prototype.MostrarModal = function (valor) {
+        this.mostraModal = valor;
+    };
+    EscolherMembroComponent.prototype.animar = function (e) {
+        var _this = this;
+        if (e.estado === 'in') {
+            this.selecionados[this.selecionados.indexOf(e)].estado = 'out';
+            setTimeout(function () {
+                _this.selecionados[_this.selecionados.indexOf(e)].buul = false;
+            }, 1000);
+        }
+        else {
+            this.selecionados[this.selecionados.indexOf(e)].buul = true;
+            setTimeout(function () {
+                _this.selecionados[_this.selecionados.indexOf(e)].estado = 'in';
+            }, 50);
+        }
+    };
+    EscolherMembroComponent.prototype.novosExercicios = function (e) {
+        var _this = this;
+        e.forEach(function (exerc) {
+            _this.selecionados.push({ "exercicios": exerc, "buul": false, "estado": 'out', "id": _this.contador });
+            _this.contador++;
+        });
+    };
+    EscolherMembroComponent.prototype.chamarExercicios = function (grupo) {
+        this.grupoMuscular = grupo;
+        this.MostrarModal(true);
+    };
+    EscolherMembroComponent.prototype.trocarGrupo = function () {
+        this.grupo = !this.grupo;
+    };
     EscolherMembroComponent.prototype.ngOnInit = function () {
     };
     EscolherMembroComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["n" /* Component */])({
             selector: 'app-escolher-membro',
             template: __webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.html"),
-            styles: [__webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.css")]
+            styles: [__webpack_require__("./src/app/home-page/meus-alunos/criar-treino/escolher-membro/escolher-membro.component.css")],
+            providers: [__WEBPACK_IMPORTED_MODULE_1__shared_serverServices_service__["a" /* ServerServices */]],
+            animations: [__WEBPACK_IMPORTED_MODULE_0__animation__["a" /* SlideInOutAnimation */]]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__shared_serverServices_service__["a" /* ServerServices */]])
     ], EscolherMembroComponent);
     return EscolherMembroComponent;
 }());
@@ -1054,7 +1332,7 @@ module.exports = ""
 /***/ "./src/app/home-page/meus-alunos/criar-treino/escolher-musculo/escolher-musculo.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo></app-topo>\n\n <!-- Esse container da responsividade a side bar da tela -->\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n</div>"
+module.exports = "<app-topo></app-topo>\r\n\r\n <!-- Esse container da responsividade a side bar da tela -->\r\n <div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n</div>"
 
 /***/ }),
 
@@ -1097,14 +1375,14 @@ var EscolherMusculoComponent = /** @class */ (function () {
 /***/ "./src/app/home-page/meus-alunos/meus-alunos.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".texto{\r\n    color: lightseagreen\r\n}"
 
 /***/ }),
 
 /***/ "./src/app/home-page/meus-alunos/meus-alunos.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo></app-topo>\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n    <h2>Meus Alunos</h2>\n</div>\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" *ngFor=\"let aluno of alunos\">\n    <div class=\"row\">\n        <label>\n            {{ aluno.nome }}\n        </label>\n    </div>\n\n</div>"
+module.exports = "<app-topo></app-topo>\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n    <h2>Meus Alunos</h2>\r\n    <div *ngIf=\"!temAlunos\" class=\"text-center\">\r\n        <div>Você não possui alunos cadastrados, gostaria de cadastrar um aluno?</div>\r\n        <label (click)=\"irParaCadastro()\" class=\"texto\"><u>Cadastrar um aluno</u></label>\r\n    </div>\r\n</div>\r\n\r\n    <div   class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" *ngFor=\"let aluno of alunos\">\r\n        <div class=\"row\">\r\n            <label>\r\n                {{ aluno.nome }}\r\n            </label>\r\n        </div>\r\n\r\n    </div>"
 
 /***/ }),
 
@@ -1132,13 +1410,21 @@ var MeusAlunosComponent = /** @class */ (function () {
     function MeusAlunosComponent(service, router) {
         this.service = service;
         this.router = router;
+        this.temAlunos = true;
     }
+    MeusAlunosComponent.prototype.irParaCadastro = function () {
+        this.router.navigate(['/addAluno']);
+    };
     MeusAlunosComponent.prototype.ngOnInit = function () {
         this.getAlunos();
     };
     MeusAlunosComponent.prototype.getAlunos = function () {
         var _this = this;
         this.service.servico('GET', '/aluno', null).subscribe(function (res) {
+            if (res[0] == null) {
+                _this.temAlunos = false;
+                console.log(_this.alunos);
+            }
             _this.alunos = res;
         }),
             function (error) {
@@ -1164,14 +1450,14 @@ var MeusAlunosComponent = /** @class */ (function () {
 /***/ "./src/app/inicio/inicio.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "h5, p {\r\n    text-align: center\r\n}\r\n\r\n.teste1 {\r\n    /* background-color: aquamarine; */\r\n    background: \"./assets/halteres.png\";\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/inicio/inicio.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo-inicio></app-topo-inicio>\n\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n    <h2>Página Inicial, TraiNow</h2>\n</div>"
+module.exports = "<app-topo-inicio></app-topo-inicio>\r\n\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n    <h2>TraiNow</h2>\r\n    <h4>Treine. Trabalhe. Transforme.</h4>\r\n</div>\r\n<!-- \r\n<div class=\"col-auto\">\r\n        <img src=\"./assets/mulher.jpg\" style=\"max-width:100%\">\r\n</div> -->\r\n\r\n\r\n\r\n<div class=\"container d-flex flex-column\" >\r\n    <div class=\"row\" style=\"background: #177F7A\">\r\n            <div class=\"col-md-6 p-3 p-lg-5\">\r\n                    <!-- <div class=\"col-md-6\"> -->\r\n                        <h5>Largue o Papel de vez e valorize sua horas de trabalho</h5>\r\n                        <p>Pare de perder tempo escrevendo em fichas de treino, criando planilhas absurdas no Excel.</p>\r\n            </div>\r\n            <div class=\"col-md-6 p-0\">\r\n                    <img src=\"./assets/halteres.jpg\" class=\"img-fluid\" alt=\"Responsive image\">\r\n            </div>\r\n\r\n                \r\n    </div>\r\n</div>\r\n<div class=\"container d-flex flex-column\"style=\"background:ghostwhite\">\r\n        <div class=\"row\">\r\n                <div class=\"col-md-6 p-3 p-lg-5\">\r\n            <h5>Agilize os treinos dos seus alunos</h5>\r\n                <p>Crie sua prória anamnese.</p>\r\n                <p>Adicione seus exercícios.</p>\r\n        </div>\r\n        <div class=\"col-md-6 p-0\">\r\n                <img src=\"./assets/barra-ombro.jpg\" class=\"img-fluid\" alt=\"Responsive image\">\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container d-flex flex-column\" style=\"background: #1C9992\">\r\n    <div class=\"row\">\r\n        <div class=\"col-md-6 p-3 p-lg-5\">\r\n            <h5>Cadastre-se agora e junte-se a nós!</h5>\r\n            <h5>Temos o melhor preço do mercado e o primeiro mês é grátis!</h5>\r\n        </div>\r\n        <div class=\"col-md-6 p-0\">\r\n                <img src=\"./assets/mulher.jpg\" class=\"img-fluid\" alt=\"Responsive image\">\r\n        </div>\r\n    </div>  \r\n\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1221,7 +1507,7 @@ module.exports = ""
 /***/ "./src/app/inicio/quemsomos/quemsomos.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo-inicio></app-topo-inicio>\n\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n    <h2>Quem somos</h2>\n</div>\n\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\">\n    <p>\n        Lorem ipsum aenean dapibus facilisis per volutpat, iaculis scelerisque rhoncus vitae scelerisque tincidunt, lacinia lorem nam sodales etiam. viverra est lacus rutrum vulputate fermentum sodales bibendum enim, posuere platea libero curabitur metus aliquet pretium vestibulum, nunc odio semper lectus lacus eu ut. odio libero rhoncus purus placerat sociosqu proin placerat condimentum, orci conubia ut consectetur pharetra euismod tortor, aliquet tristique viverra augue lacinia platea aenean. ut aptent suscipit duis aenean porttitor viverra nam hendrerit, ornare porttitor id eleifend ipsum sociosqu ornare praesent, semper nisi donec volutpat diam placerat inceptos. quam erat cras interdum ullamcorper adipiscing lacus venenatis ut volutpat sagittis tristique, placerat congue lacus eros proin semper tellus senectus convallis molestie malesuada, felis nibh inceptos lacus feugiat vitae cursus neque turpis sagittis.\n    </p>\n    <p>\n        Ante non laoreet enim sagittis libero ornare sed mollis tincidunt, rhoncus pretium duis ultrices dictum maecenas eu curabitur vehicula netus, vitae feugiat pellentesque elementum orci semper placerat porta. convallis molestie tristique accumsan lectus orci imperdiet eget suscipit euismod faucibus donec, curabitur dictum luctus duis potenti diam porta in phasellus. cras malesuada augue pharetra sociosqu varius aliquam lorem eu convallis vel, porttitor dictumst auctor vestibulum aptent nisi primis justo scelerisque, hac sit magna rhoncus diam vulputate blandit hac integer.\n    </p>\n</div>"
+module.exports = "<app-topo-inicio></app-topo-inicio>\r\n\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n    <h2>Quem somos</h2>\r\n</div>\r\n<div class=\"container resume-section\">\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"card\" style=\"width: 18rem;\">\r\n                <img class=\"card-img-top\" src=\"../../assets/diogo.jpeg\" alt=\"Card image cap\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">Diogo</h5>\r\n                    <p class=\"card-text\">Possui o dom de imitar o grito(agrião) do tom</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"card\" style=\"width: 18rem;\">\r\n                <img class=\"card-img-top\" src=\"../../assets/diego.jpeg\" alt=\"Card image cap\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">Diego</h5>\r\n                    <p class=\"card-text\">Responsável pelo marketing e financeiro</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"card\" style=\"width: 18rem;\">\r\n                <img class=\"card-img-top\" src=\"../../assets/giovanni.jpeg\" alt=\"Card image cap\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">Giovanni</h5>\r\n                    <p class=\"card-text\">Responsável pelo back-end</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"card\" style=\"width: 18rem;\">\r\n                <img class=\"card-img-top\" src=\"../../assets/pacheco.jpeg\" alt=\"Card image cap\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">Gustavo</h5>\r\n                    <p class=\"card-text\">Resposável pelo front-end</p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-6\">\r\n                <div class=\"card\" style=\"width: 18rem;\">\r\n                    <img class=\"card-img-top\" src=\"../../assets/farias.jpg\" alt=\"Card image cap\">\r\n                    <div class=\"card-body\">\r\n                        <h5 class=\"card-title\">Lucas</h5>\r\n                        <p class=\"card-text\">Reposável pelo front-end e negócios</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        <div class=\"col-sm-6\"></div>\r\n    </div>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -1271,7 +1557,7 @@ module.exports = ""
 /***/ "./src/app/inicio/saibamais/saibamais.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-topo-inicio></app-topo-inicio>\n\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\n    <h2>Saiba mais</h2>\n</div>\n\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\">\n    <p>\n        Lorem ipsum aenean dapibus facilisis per volutpat, iaculis scelerisque rhoncus vitae scelerisque tincidunt, lacinia lorem nam sodales etiam. viverra est lacus rutrum vulputate fermentum sodales bibendum enim, posuere platea libero curabitur metus aliquet pretium vestibulum, nunc odio semper lectus lacus eu ut. odio libero rhoncus purus placerat sociosqu proin placerat condimentum, orci conubia ut consectetur pharetra euismod tortor, aliquet tristique viverra augue lacinia platea aenean. ut aptent suscipit duis aenean porttitor viverra nam hendrerit, ornare porttitor id eleifend ipsum sociosqu ornare praesent, semper nisi donec volutpat diam placerat inceptos. quam erat cras interdum ullamcorper adipiscing lacus venenatis ut volutpat sagittis tristique, placerat congue lacus eros proin semper tellus senectus convallis molestie malesuada, felis nibh inceptos lacus feugiat vitae cursus neque turpis sagittis.\n    </p>\n    <p>\n        Ante non laoreet enim sagittis libero ornare sed mollis tincidunt, rhoncus pretium duis ultrices dictum maecenas eu curabitur vehicula netus, vitae feugiat pellentesque elementum orci semper placerat porta. convallis molestie tristique accumsan lectus orci imperdiet eget suscipit euismod faucibus donec, curabitur dictum luctus duis potenti diam porta in phasellus. cras malesuada augue pharetra sociosqu varius aliquam lorem eu convallis vel, porttitor dictumst auctor vestibulum aptent nisi primis justo scelerisque, hac sit magna rhoncus diam vulputate blandit hac integer.\n    </p>\n</div>"
+module.exports = "<app-topo-inicio></app-topo-inicio>\r\n\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\" style=\"background: white\">\r\n    <h2>Saiba mais</h2>\r\n</div>\r\n\r\n<div class=\"container resume-section p-3 p-lg-5 d-flex flex-column\">\r\n    <p>\r\n        Lorem ipsum aenean dapibus facilisis per volutpat, iaculis scelerisque rhoncus vitae scelerisque tincidunt, lacinia lorem nam sodales etiam. viverra est lacus rutrum vulputate fermentum sodales bibendum enim, posuere platea libero curabitur metus aliquet pretium vestibulum, nunc odio semper lectus lacus eu ut. odio libero rhoncus purus placerat sociosqu proin placerat condimentum, orci conubia ut consectetur pharetra euismod tortor, aliquet tristique viverra augue lacinia platea aenean. ut aptent suscipit duis aenean porttitor viverra nam hendrerit, ornare porttitor id eleifend ipsum sociosqu ornare praesent, semper nisi donec volutpat diam placerat inceptos. quam erat cras interdum ullamcorper adipiscing lacus venenatis ut volutpat sagittis tristique, placerat congue lacus eros proin semper tellus senectus convallis molestie malesuada, felis nibh inceptos lacus feugiat vitae cursus neque turpis sagittis.\r\n    </p>\r\n    <p>\r\n        Ante non laoreet enim sagittis libero ornare sed mollis tincidunt, rhoncus pretium duis ultrices dictum maecenas eu curabitur vehicula netus, vitae feugiat pellentesque elementum orci semper placerat porta. convallis molestie tristique accumsan lectus orci imperdiet eget suscipit euismod faucibus donec, curabitur dictum luctus duis potenti diam porta in phasellus. cras malesuada augue pharetra sociosqu varius aliquam lorem eu convallis vel, porttitor dictumst auctor vestibulum aptent nisi primis justo scelerisque, hac sit magna rhoncus diam vulputate blandit hac integer.\r\n    </p>\r\n</div>"
 
 /***/ }),
 
@@ -1364,7 +1650,7 @@ var TopoInicioComponent = /** @class */ (function () {
 /***/ "./src/app/login/login.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".principal{\r\n    height: 100%;\r\n    border-style: solid\r\n}\r\n\r\n.m-top{\r\n    margin-top: 5px;\r\n}\r\n\r\n.autenticacao{\r\n    margin: 3% 3% 3% 3%\r\n}\r\n\r\n.label-obrigatorio{\r\n    display: block;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n\r\n.label-autenticacao{\r\n    color: darkblue;\r\n    width: 5;\r\n    display: block;\r\n    text-align: left;\r\n    margin: auto\r\n}\r\n\r\n.label-warning{\r\n    display: inline;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n\r\n.div-autentica{\r\n    margin-top: 0;\r\n}\r\n\r\n.botao{\r\n    margin-left:  3%;\r\n    margin-top: 3%;\r\n}\r\n\r\n.alinhar{\r\n    display: block;\r\n    margin: auto\r\n}\r\n\r\n.fotinho {\r\n    max-width:200px;\r\n    max-height:150px;\r\n    width: auto;\r\n    height: auto;\r\n    display: block;\r\n    margin: auto;\r\n}\r\n\r\n.rodape {\r\n    margin: auto;\r\n    width: 100%;\r\n    bottom: 2%;\r\n    position: fixed;\r\n}\r\n\r\n.btn-primary{\r\n    border-color: lightseagreen;\r\n    background-color: lightseagreen;\r\n}\r\n\r\n.fundoTelaLogin{\r\n    border:0px;\r\n    border-style:solid;\r\n    background-color:ghostwhite;\r\n    max-width: 50%;\r\n    border-radius: 10px;\r\n    margin-top: 30px;\r\n}\r\n\r\ninput{\r\n    max-width: 100%;\r\n}\r\n\r\n.margin-do-label{\r\n    margin-top: 2%;\r\n}\r\n\r\n.margin-a{\r\n    padding-bottom: 2%;\r\n}\r\n\r\n.estilo-a{\r\n    color: lightseagreen;\r\n}\r\n\r\n.input-estilo{\r\n    max-width: 100%;\r\n    background: rgb(0, 0,0,0);\r\n    border-style: none none solid none;\r\n}\r\n\r\n@media (max-width: 600px)\r\n{\r\n    .fundoTelaLogin{\r\n        border:0px;\r\n        border-style:solid;\r\n        background-color:ghostwhite;\r\n        max-width: 90%;\r\n        margin-top: 30px;\r\n    }\r\n    input{\r\n        max-width: 100%;\r\n    }\r\n    .margin-do-label{\r\n        margin-top: 5%;\r\n    }\r\n    .margin-a{\r\n        padding-bottom: 5%;\r\n    }\r\n\r\n\r\n}\r\n"
+module.exports = ".principal{\r\n    height: 100%;\r\n    border-style: solid\r\n}\r\n\r\n.m-top{\r\n    margin-top: 5px;\r\n}\r\n\r\n.autenticacao{\r\n    margin: 3% 3% 3% 3%\r\n}\r\n\r\n.label-obrigatorio{\r\n    display: block;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n\r\n.label-autenticacao{\r\n    color: darkblue;\r\n    width: 5;\r\n    display: block;\r\n    text-align: left;\r\n    margin: auto\r\n}\r\n\r\n.label-warning{\r\n    display: inline;\r\n    margin: auto;\r\n    color: red;\r\n}\r\n\r\n.div-autentica{\r\n    margin-top: 0;\r\n}\r\n\r\n.botao{\r\n    margin-left:  3%;\r\n    margin-top: 3%;\r\n}\r\n\r\n.alinhar{\r\n    display: block;\r\n    margin: auto\r\n}\r\n\r\n.fotinho {\r\n    max-width:200px;\r\n    max-height:150px;\r\n    width: auto;\r\n    height: auto;\r\n    display: block;\r\n    margin: auto;\r\n}\r\n\r\n.rodape {\r\n    margin: auto;\r\n    width: 100%;\r\n    bottom: 2%;\r\n    position: fixed;\r\n}\r\n\r\n.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {\r\n    border-color: lightseagreen !important;\r\n    background-color: lightseagreen !important;\r\n}\r\n\r\n.fundoTelaLogin{\r\n    border:0px;\r\n    border-style:solid;\r\n    background-color:ghostwhite;\r\n    max-width: 50%;\r\n    border-radius: 10px;\r\n    margin-top: 30px;\r\n}\r\n\r\ninput{\r\n    max-width: 100%;\r\n}\r\n\r\n.margin-do-label{\r\n    margin-top: 2%;\r\n}\r\n\r\n.margin-a{\r\n    padding-bottom: 2%;\r\n}\r\n\r\n.estilo-a{\r\n    color: lightseagreen;\r\n}\r\n\r\n.input-estilo{\r\n    max-width: 100%;\r\n    background: rgb(0, 0,0,0);\r\n    border-style: none none solid none;\r\n}\r\n\r\n@media (max-width: 600px)\r\n{\r\n    .fundoTelaLogin{\r\n        border:0px;\r\n        border-style:solid;\r\n        background-color:ghostwhite;\r\n        max-width: 90%;\r\n        margin-top: 30px;\r\n    }\r\n    input{\r\n        max-width: 100%;\r\n    }\r\n    .margin-do-label{\r\n        margin-top: 5%;\r\n    }\r\n    .margin-a{\r\n        padding-bottom: 5%;\r\n    }\r\n\r\n\r\n}\r\n"
 
 /***/ }),
 
@@ -1456,6 +1742,21 @@ var Aluno = /** @class */ (function () {
     function Aluno() {
     }
     return Aluno;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/exercicio.model.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Exercicio; });
+var Exercicio = /** @class */ (function () {
+    function Exercicio() {
+    }
+    return Exercicio;
 }());
 
 
@@ -1645,7 +1946,7 @@ module.exports = ""
 /***/ "./src/app/topo/topo.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary fixed-top\" id=\"sideNav\">\r\n  <a class=\"navbar-brand js-scroll-trigger\" routerLink=\"\">\r\n    <span class=\"d-none d-lg-block\">\r\n      <img class=\"img-fluid img-profile rounded-circle mx-auto mb-2\" src=\"../../assets/biceps.png\" alt=\"\">\r\n    </span>\r\n  </a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\"\r\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav\">\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\"  routerLink=\"/meusAlunos\">Meus Alunos</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\" routerLink=\"/addAluno\">Adicionar Aluno</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\" routerLink=\"/meusAlunos\">Configurações(TODO)</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\" (click)=\"logout()\" href=\"\">Sair</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary fixed-top\" id=\"sideNav\">\r\n  <a class=\"navbar-brand js-scroll-trigger\" routerLink=\"/home\">\r\n    <span class=\"d-none d-lg-block\">\r\n      <img class=\"img-fluid img-profile rounded-circle mx-auto mb-2\" src=\"../../assets/biceps.png\" alt=\"\">\r\n    </span>\r\n  </a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\"\r\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav\">\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\"  routerLink=\"/meusAlunos\">Meus Alunos</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\" routerLink=\"/addAluno\">Adicionar Aluno</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\" routerLink=\"/meusAlunos\">Configurações(TODO)</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link js-scroll-trigger\" (click)=\"logout()\" href=\"\">Sair</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n"
 
 /***/ }),
 
