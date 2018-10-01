@@ -9,11 +9,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/inline.318b50c57b4eba3d437b.bundle.js",
-        "/main.86510268c1ca0832cf24.bundle.js",
-        "/polyfills.50b851ccd19aa9b94ce1.bundle.js",
-        "/scripts.782948145560c59f4f43.bundle.js",
-        "/styles.5c166222c7ed7e054820.bundle.css"
+        "/main.4a4ff9d4de56df4cc35d.js",
+        "/polyfills.f6930679dbd092886231.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/scripts.782948145560c59f4f43.js",
+        "/styles.b1a3e5c6da8311c65541.css"
       ],
       "patterns": []
     },
@@ -30,7 +30,6 @@
         "/assets/farias.jpg",
         "/assets/giovanni.jpeg",
         "/assets/halteres.jpg",
-        "/assets/ico/Trainow-extenso.png",
         "/assets/ico/android-icon-144x144.png",
         "/assets/ico/android-icon-192x192.png",
         "/assets/ico/android-icon-36x36.png",
@@ -58,7 +57,16 @@
         "/assets/ico/ms-icon-150x150.png",
         "/assets/ico/ms-icon-310x310.png",
         "/assets/ico/ms-icon-70x70.png",
+        "/assets/ico/Trainow-extenso.png",
         "/assets/ico/trainow-logo.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
         "/assets/mulher.jpg",
         "/assets/pacheco.jpeg",
         "/assets/trash.svg",
@@ -69,15 +77,21 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/assets/barra-ombro.jpg": "6fda3e2376eebef4c2f992248abeba2899123c94",
+    "/index.html": "68278cb25f0cbba73dbbb563e5bf48ec436bba6b",
     "/assets/biceps.png": "24c3cd6c8b1cf0a95b5bc228aec24c7637490071",
+    "/main.4a4ff9d4de56df4cc35d.js": "dde4b2a7beff67ce07eeab2f03a22807200db4c3",
     "/assets/diego.jpeg": "0f07c651a60207934aee0d7d4798583a2cf0a9a1",
+    "/polyfills.f6930679dbd092886231.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "/assets/diogo.jpeg": "0cc09d925121fba4c6335e8dddb25b94b625a6f1",
+    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/assets/duas-pessoas.jpg": "b98f53cae7cbd2f6cf9b26d41e65516c3a2458e1",
+    "/scripts.782948145560c59f4f43.js": "c1b926567985c30df450ab3ed319594c8c686754",
     "/assets/farias.jpg": "7056913be69bbe7e45e9ce214c7debf9f6f3797f",
+    "/styles.b1a3e5c6da8311c65541.css": "ec77c104de2b0491056ebcaefd851c68cd14722f",
     "/assets/giovanni.jpeg": "10d79a30d181b1ebfe25417fc922fe9b2e4fde9b",
     "/assets/halteres.jpg": "1c006fcc4ca159786abbfb161314aa788c69191c",
-    "/assets/ico/Trainow-extenso.png": "328b8147c6ffd485068b3c5e5415cd9e65a8633c",
     "/assets/ico/android-icon-144x144.png": "63040178dad25c0144b51782b4a67950e5aaf3ad",
     "/assets/ico/android-icon-192x192.png": "7dbaf9e90ae1a775b0f9d28893fac488e755e0aa",
     "/assets/ico/android-icon-36x36.png": "84fcb0a8e1a1ce7dbce2b4de9275a0ad5e858f4e",
@@ -95,45 +109,29 @@
     "/assets/ico/apple-icon-76x76.png": "9557b7cc5303229e3ace01068013829d396e19f6",
     "/assets/ico/apple-icon-precomposed.png": "1273b5eaa330466f6a65b1d0e142f8a4f188f8bd",
     "/assets/ico/apple-icon.png": "1273b5eaa330466f6a65b1d0e142f8a4f188f8bd",
-    "/assets/ico/browserconfig.xml": "ce58ec7b540ac612622639f316e24560cc002778",
+    "/assets/ico/browserconfig.xml": "853389b6c4273965899eb1302d665eb91395fd0c",
     "/assets/ico/favicon-16x16.png": "5ed638a1f1c26a47bb224eaaf2b7e7ee33931f8a",
     "/assets/ico/favicon-32x32.png": "e1d3fc291d395a085897da9d96f169f261df2032",
     "/assets/ico/favicon-96x96.png": "e3d1ed1aa0fa6252278b40eca8ea738f42499671",
     "/assets/ico/favicon.ico": "9b77d61bc4287b9f7325eef11c7445cf1cfc61d3",
-    "/assets/ico/manifest.json": "0710389449000093f668c39f5c5c39568946df0a",
+    "/assets/ico/manifest.json": "d11febf9e708a9e11baee37ed7dc5e99902580be",
     "/assets/ico/ms-icon-144x144.png": "63040178dad25c0144b51782b4a67950e5aaf3ad",
     "/assets/ico/ms-icon-150x150.png": "b50759eae9dd7825bdbe80e32614c0e4cd29e0c2",
     "/assets/ico/ms-icon-310x310.png": "4911672103afb7217d3033b06ba65c514e436b85",
     "/assets/ico/ms-icon-70x70.png": "fd617bd2225af8248f044f78d5c971942c2b54df",
+    "/assets/ico/Trainow-extenso.png": "328b8147c6ffd485068b3c5e5415cd9e65a8633c",
     "/assets/ico/trainow-logo.png": "364afa9be37d6f27b8a73955454e9c19d5ad4d35",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/mulher.jpg": "2107730da234ac44ccb5879856f62ccb1413abac",
     "/assets/pacheco.jpeg": "e9a8ec100e3fd36670493dd1f1a967f71b4dbbc0",
     "/assets/trash.svg": "830386be64706557f0bf26fc84ae7dfcd5cb4a21",
-    "/assets/treino.png": "bf3676e508eb83ce906d907078a5a3bfa08f7f3d",
-    "/favicon.ico": "9b77d61bc4287b9f7325eef11c7445cf1cfc61d3",
-    "/index.html": "4c8087b3d30840313bb278ca3989d5ea021955ac",
-    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/main.86510268c1ca0832cf24.bundle.js": "b9225514ab825ab05e72cdd9c23302daf8ded4b5",
-    "/polyfills.50b851ccd19aa9b94ce1.bundle.js": "106347cf1a53b1dceace39e0d83e6b93936bb95b",
-    "/scripts.782948145560c59f4f43.bundle.js": "ae812fb4a402c8d34b19744f40270c87e5a3ee80",
-    "/styles.5c166222c7ed7e054820.bundle.css": "6e924cd57521a01b893a17eeaa799a40acaf024f"
-  },
-  "navigationUrls": [
-    {
-      "positive": true,
-      "regex": "^\\/.*$"
-    },
-    {
-      "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
-    },
-    {
-      "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
-    },
-    {
-      "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
-    }
-  ]
+    "/assets/treino.png": "bf3676e508eb83ce906d907078a5a3bfa08f7f3d"
+  }
 }
