@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.4a4ff9d4de56df4cc35d.js",
+        "/main.682ba4dc2992563a6b74.js",
         "/polyfills.f6930679dbd092886231.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/scripts.782948145560c59f4f43.js",
@@ -79,9 +79,9 @@
   "hashTable": {
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/assets/barra-ombro.jpg": "6fda3e2376eebef4c2f992248abeba2899123c94",
-    "/index.html": "68278cb25f0cbba73dbbb563e5bf48ec436bba6b",
+    "/index.html": "f01fb36d92944e31e395f0c0d0d979adb41b7fcd",
     "/assets/biceps.png": "24c3cd6c8b1cf0a95b5bc228aec24c7637490071",
-    "/main.4a4ff9d4de56df4cc35d.js": "dde4b2a7beff67ce07eeab2f03a22807200db4c3",
+    "/main.682ba4dc2992563a6b74.js": "44c1545160b72a40fa2b2826397cb9ca40ee7759",
     "/assets/diego.jpeg": "0f07c651a60207934aee0d7d4798583a2cf0a9a1",
     "/polyfills.f6930679dbd092886231.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "/assets/diogo.jpeg": "0cc09d925121fba4c6335e8dddb25b94b625a6f1",
